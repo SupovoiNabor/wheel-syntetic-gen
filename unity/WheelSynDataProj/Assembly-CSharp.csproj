@@ -46,7 +46,11 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.3.6f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Systems\Global\G.cs" />
+    <Compile Include="Assets\Systems\Help\CameraFollow.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Systems\Simulata\WheelDecalPositioner.cs" />
+    <Compile Include="Assets\Systems\Simulata\PairMovement.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -941,6 +945,9 @@
     <Reference Include="Unity.Mathematics">
       <HintPath>D:\Repos\wheel-syn-project\wheel-syntetic-gen\unity\WheelSynDataProj\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
     </Reference>
+    <Reference Include="VHACD">
+      <HintPath>D:\Repos\wheel-syn-project\wheel-syntetic-gen\unity\WheelSynDataProj\Library\ScriptAssemblies\VHACD.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Shaders">
       <HintPath>D:\Repos\wheel-syn-project\wheel-syntetic-gen\unity\WheelSynDataProj\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
     </Reference>
@@ -988,6 +995,9 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>D:\Repos\wheel-syn-project\wheel-syntetic-gen\unity\WheelSynDataProj\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="VHACDEditor">
+      <HintPath>D:\Repos\wheel-syn-project\wheel-syntetic-gen\unity\WheelSynDataProj\Library\ScriptAssemblies\VHACDEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
