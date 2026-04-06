@@ -1,0 +1,8 @@
+# Default: programmers own everything
+*		@SupovoiNabor/programmers
+
+# Artists own assets
+/assets/	@SupovoiNabor/artists
+
+# Manager owns the docks
+/docks		@SupovoiNabor/manager
